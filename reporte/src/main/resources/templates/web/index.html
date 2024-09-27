@@ -9,22 +9,17 @@
 </head>
 <body>
 <h1>Subir Archivo Excel</h1>
-<form action="/upload" method="post" enctype="multipart/form-data">
-    <input type="file" name="file" accept=".xlsx" />
-    <button type="submit">Subir</button>
-</form>
-
 <table class="text-sm text-black">
     <thead>
-        <tr >
-            <th th:each="item : ${listar}" th:text="${item}" class="border p-2"></th>
+    <tr >
+        <th th:each="item : ${listar}" th:text="${item}" class="border p-2"></th>
 
-        </tr>
+    </tr>
     </thead>
     <tbody>
-        <tr>
+    <tr>
 
-        </tr>
+    </tr>
     </tbody>
 </table>
 </body>

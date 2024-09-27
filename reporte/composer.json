@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^2.2",
+        "doctrine/orm": "^3.2"
+    }
+}
