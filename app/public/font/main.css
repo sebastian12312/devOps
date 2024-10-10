@@ -1,0 +1,8 @@
+@font-face {
+font-family: 'Omnes';
+    src: url('../font/Omnes.ttf');
+/* src: url('../fuentes/Omnes.ttf') format('truetype'); */
+  }
+  *{
+    font-family: 'Omnes';
+  }
